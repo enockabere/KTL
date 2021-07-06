@@ -290,11 +290,6 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
 .section-bottom-button { padding-top: 20px; }
 
 
-/***** Divider *****/
-
-.divider-1 span { display: inline-block; width: 200px; border-bottom: 1px dotted #aaa; }
-
-
 /***** Top content *****/
 
 .top-content {
@@ -333,7 +328,7 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
 }
 
 
-/***** Section 1 *****/
+/***** Section about *****/
 .section-0{
 	height: 100vh;
 	width: 100%;
@@ -422,15 +417,40 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a:hover {
 	color: #01447e;
   }
+  /***** Section services *****/
 #section-1{
-	background-image: linear-gradient(to right top, #1f618d, #346e9d, #487bae, #5a88bf, #6d96d0, #74a2d7, #7dadde, #87b9e4, #93c4df, #a6cddb, #bdd4d9, #d5dbdb);
+	background-color: #DCE1E3;
+	padding-bottom: 70px;
 }
-
-.section-1-box .section-1-box-icon {
-	width: 80px; height: 80px; margin: 0 auto;
-	border: 1px solid #f35b3f;
-    font-size: 40px; color: #f35b3f; line-height: 78px; text-align: center;
-    border-radius: 50%;
+.services-text{
+	color: black;
+}
+#headingOne p{
+	text-align: left;
+	color:#B73225;
+}
+#accod{
+	background-color: #DCE1E3;
+	border-color: #DCE1E3;
+}
+#accods{
+	background-color:  #F3F3F3;
+	border-color: #DCE1E3;
+}
+.card-body p{
+	text-align: justify;
+	font-size: 12px;
+}
+.myHead{
+	padding-top: 30px;
+}
+.myHead{
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.myHead h3{
+	color: black;
+	font-weight: 800;
 }
 #arrow{
 	font-size: 30px;
@@ -519,9 +539,10 @@ ul.breadcrumb li a:hover {
 .mafooter{
 	margin-bottom: -50px;
 }
-.section-1-box h3 { margin-top: 0; padding: 0 0 10px 0; }
-
-
+.top-em{
+	margin-top: 40px;
+	color: white;
+}
 /***** Section 2 *****/
 
 .section-2-box { margin-top: 30px; text-align: left; }
