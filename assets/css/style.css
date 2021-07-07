@@ -1,6 +1,7 @@
-html{
+html {
 	scroll-behavior: smooth;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -88,7 +89,7 @@ img {
 	top: 0;
 	left: -255px;
 	z-index: 999;
-	background-color:  #A3BCB6;
+	background-color: #A3BCB6;
 	transition: all .3s;
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 	text-align: left;
@@ -105,7 +106,7 @@ img {
 	top: 15px;
 	right: 10px;
 	transition: all .3s;
-	background:  #eb1736;
+	background: #eb1736;
 	border-radius: 4px;
 	text-align: center;
 	line-height: 35px;
@@ -283,6 +284,52 @@ a[aria-expanded="true"] {
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.2);
 }
 
+.call {
+	margin: 10px;
+	background-color: #DADED4;
+	padding-bottom: 15px;
+}
+
+.piga {
+	color: red;
+}
+
+.cols a {
+	margin: 2px;
+	padding-left: 30px;
+	font-size: 18px;
+}
+
+.cols a:hover {
+	margin: 2px;
+	padding-left: 30px;
+	font-size: 18px;
+	color: white;
+}
+
+.was-validated {
+	margin: 10px;
+	display: none;
+}
+
+.hed h4 {
+	text-align: center;
+	padding-top: 15px;
+	color: #202020;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+#callBtn {
+	background-color: black;
+	border-color: black;
+}
+
+#callBtn:hover {
+	background-color: red;
+	border-color: black;
+}
+
 #myBtn {
 	display: none;
 	position: fixed;
@@ -297,7 +344,8 @@ a[aria-expanded="true"] {
 	cursor: pointer;
 	padding: 13px;
 	border-radius: 4px;
-  }
+}
+
 /***** Buttons *****/
 
 a.btn-customized {
@@ -667,11 +715,13 @@ ul.breadcrumb li a:hover {
 	background-color: white;
 	display: none;
 }
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	.card {
 		margin: 10px;
 	}
-	#bods{
+
+	#bods {
 		margin: 10px;
 	}
 }
@@ -897,13 +947,15 @@ ul.breadcrumb li a:hover {
 	color: inherit;
 	text-decoration: none;
 	opacity: 0.6;
-	
+
 }
-.foot-log img{
+
+.foot-log img {
 	width: 50%;
 	height: auto;
 	padding-top: 20px;
 }
+
 .footer ol a:hover {
 	opacity: 0.8;
 }
