@@ -88,8 +88,7 @@ img {
 	top: 0;
 	left: -255px;
 	z-index: 999;
-	background-image: linear-gradient(to right top, #eaeded, #dce0e0, #ced3d4, #c0c7c7, #b2babb);
-	color: black;
+	background-color:  #A3BCB6;
 	transition: all .3s;
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 	text-align: left;
@@ -106,7 +105,7 @@ img {
 	top: 15px;
 	right: 10px;
 	transition: all .3s;
-	background: #e52636;
+	background:  #eb1736;
 	border-radius: 4px;
 	text-align: center;
 	line-height: 35px;
@@ -115,13 +114,13 @@ img {
 
 .dismiss:hover,
 .dismiss:focus {
-	background: #070707;
+	background: #3C403D;
 	color: #e52636;
 }
 
 .sidebar .logo {
 	padding: 10px 20px;
-	border-bottom: 2px solid #ECF0F1;
+	border-bottom: 2px solid #DADED4;
 	transition: all .3s;
 }
 
@@ -133,7 +132,7 @@ img {
 
 .sidebar ul.menu-elements {
 	padding: 10px 0;
-	border-bottom: 1px solid #ECF0F1;
+	border-bottom: 1px solid #DADED4;
 	transition: all .3s;
 }
 
@@ -150,8 +149,8 @@ img {
 .sidebar ul li.active>a:hover,
 .sidebar ul li.active>a:focus {
 	outline: 0;
-	background: red;
-	color: #fff;
+	background: #DADED4;
+	color: #3C403D;
 }
 
 .sidebar ul li a i {
@@ -160,7 +159,7 @@ img {
 
 .sidebar ul li.active>a,
 a[aria-expanded="true"] {
-	background: red;
+	background: #DADED4;
 	color: #fff;
 }
 
@@ -284,7 +283,21 @@ a[aria-expanded="true"] {
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.2);
 }
 
-
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 13px;
+	border-radius: 4px;
+  }
 /***** Buttons *****/
 
 a.btn-customized {
