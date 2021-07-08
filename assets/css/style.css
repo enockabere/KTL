@@ -72,16 +72,6 @@ img {
 	text-shadow: none;
 }
 
-.quote {
-	margin-top: 300px;
-}
-
-.quote h4 {
-	background-color: white;
-	color: #000000;
-	font-weight: 700;
-}
-
 /***** Wrapper *****/
 
 .wrapper {
@@ -98,7 +88,10 @@ img {
 	top: 0;
 	left: -255px;
 	z-index: 999;
-	background-color: #A3BCB6;
+	background-image: url(../img/backgrounds/14.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	transition: all .3s;
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 	text-align: left;
@@ -258,13 +251,14 @@ a[aria-expanded="true"] {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 900;
 	font-size: 50px;
-
+	padding-bottom: 40px;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	#headers {
 		font-size: 30px;
 		font-weight: 800;
+		margin-top: 60px;
 	}
 
 	#heads {
@@ -379,7 +373,7 @@ a.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active,
 a.btn-customized.btn.btn-primary:not(:disabled):not(.disabled):active:focus {
 	outline: 0;
 	background: black;
-	background: black;
+	background: rgb(172, 39, 39);
 	border: 0;
 	color: #fff;
 	box-shadow: none;

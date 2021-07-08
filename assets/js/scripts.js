@@ -94,41 +94,6 @@ jQuery(document).ready(function () {
 	*/
 	new WOW().init();
 
-	/*
-	    Contact form
-	*/
-	$('.section-6-form form input[type="text"], .section-6-form form textarea').on('focus', function () {
-		$('.section-6-form form input[type="text"], .section-6-form form textarea').removeClass('input-error');
-	});
-	$('.section-6-form form').submit(function (e) {
-		e.preventDefault();
-		$('.section-6-form form input[type="text"], .section-6-form form textarea').removeClass('input-error');
-		var postdata = $('.section-6-form form').serialize();
-		$.ajax({
-			type: 'POST',
-			url: 'assets/contact.php',
-			data: postdata,
-			dataType: 'json',
-			success: function (json) {
-				if (json.emailMessage != '') {
-					$('.section-6-form form .contact-email').addClass('input-error');
-				}
-				if (json.subjectMessage != '') {
-					$('.section-6-form form .contact-subject').addClass('input-error');
-				}
-				if (json.messageMessage != '') {
-					$('.section-6-form form textarea').addClass('input-error');
-				}
-				if (json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
-					$('.section-6-form form').fadeOut('fast', function () {
-						$('.section-6-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
-						$('.section-6-container').backstretch("resize");
-					});
-				}
-			}
-		});
-	});
-
 });
 
 $(document).ready(function () {
@@ -225,28 +190,30 @@ $('.carousel .carousel-item').each(function () {
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+	scrollFunction()
+};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	} else {
+		mybutton.style.display = "none";
+	}
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
 }
-$(document).ready(function(){
-	$("#callBtn").click(function(){
+$(document).ready(function () {
+	$("#callBtn").click(function () {
 		alert("Thank you for your interest, we will contact you soon.")
 	});
 });
-$(document).ready(function(){
-	$("#tops").click(function(){
+$(document).ready(function () {
+	$("#tops").click(function () {
 		$("form#myValid").toggle(500);
 	});
 });
