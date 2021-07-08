@@ -1,56 +1,68 @@
-#forms{
+#forms,
+#myfilter {
     margin-top: 43px;
 }
-.images img{
+
+.images img {
     width: 80px;
     height: auto;
 }
-.some h4{
+
+.some h4 {
     font-size: 17px;
     font-weight: 500;
     color: #3C403D;
 }
-.some p{
+
+.some p {
     color: black;
     font-size: 13px;
-    text-align:inherit;
+    text-align: inherit;
 }
-#ktl{
+
+#ktl {
     width: 70px;
     height: auto;
 }
-.itemu{
-    background-color: #A3BCB6 ;
+
+.itemu {
+    background-color: #A3BCB6;
 }
-.itemu:hover{
+
+.itemu:hover {
     background-color: #DADED4;
     border: 2px solid #A3BCB6;
     padding: 10px;
     box-shadow: 5px 5px 8px white;
 }
-#ser{
+
+#ser {
     padding-top: 50px;
     padding-bottom: 40px;
 }
-#info{
+
+#info {
     background-color: #DCE1E3;
-	padding-bottom: 70px;
+    padding-bottom: 70px;
 }
-.sect-head h3{
-color: #01447e;
-	text-align: left;
-	font-family: 'Noto Sans SC', sans-serif;
-	padding-top: 20px;
-	font-weight: 300;
+
+.sect-head h3 {
+    color: #01447e;
+    text-align: left;
+    font-family: 'Noto Sans SC', sans-serif;
+    padding-top: 20px;
+    font-weight: 300;
     font-size: 17px;
 }
+
 .sec-text p {
-	color: black;
-	text-align: justify;
-	font-size: 13px;
+    color: black;
+    text-align: justify;
+    font-size: 13px;
 }
+
 /*quotes section*/
-#quotes{
+#quotes {
     padding-top: 40px;
     padding-bottom: 40px;
     background-image: url(../img/backgrounds/11.jpg);
@@ -59,72 +71,103 @@ color: #01447e;
     background-size: cover;
     background-attachment: fixed;
 }
+
 #news {
-	background-color: red;
-	border-radius: 4px;
-	border: 1px solid red;
-	font-size: 13px;
-	padding: 15px;
-	
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid red;
+    font-size: 13px;
+    padding: 15px;
+
 }
+
 #news:hover {
-	background-color: black;
-	border: 3px solid red;
+    background-color: black;
+    border: 3px solid red;
 }
+
 #news-t {
-	background-color: red;
-	border-radius: 4px;
-	border: 1px solid red;
-	font-size: 13px;
-	padding: 15px;
-	
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid red;
+    font-size: 13px;
+    padding: 15px;
+
 }
+
 #news-t:hover {
-	background-color: black;
-	border: 3px solid red;
+    background-color: black;
+    border: 3px solid red;
 }
+
 #news-tc {
-	background-color: red;
-	border-radius: 4px;
-	border: 1px solid red;
-	font-size: 13px;
-	padding: 15px;
-	
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid red;
+    font-size: 13px;
+    padding: 15px;
+
 }
+
 #news-tc:hover {
-	background-color: black;
-	border: 3px solid red;
+    background-color: black;
+    border: 3px solid red;
 }
-.card-body h5{
+
+.card-body h5 {
     color: black;
     font-size: 16px;
 }
-.card-body h5:hover{
+
+.card-body h5:hover {
     color: #39603D;
 }
-.jumbotron{
+
+.jumbotron {
     margin-top: 50px;
     display: none;
 }
-.J-head h2{
+
+.J-head h2 {
     font-weight: 400;
 }
-.J-body p{
+
+.J-body p {
     text-align: left;
     color: black;
 }
-#mambo{
+
+#mambo {
     padding-bottom: 60px;
-}/*automation*/
-#b-DCS,#b-ES,#b-OAS{
+}
+
+/*automation*/
+#b-DCS,
+#b-ES,
+#b-OAS {
     display: none;
 }
-#c-DCS,#c-ES,#c-OAS{
+
+#c-DCS,
+#c-ES,
+#c-OAS {
     display: none;
 }
-#ser-DCS,#ser-ES,#ser-OAS{
+
+#ser-DCS,
+#ser-ES,
+#ser-OAS {
     display: none;
 }
-#t-DCS,#t-ES,#t-OAS{
+
+#t-DCS,
+#t-ES,
+#t-OAS {
+    display: none;
+}
+
+#cl-DCS,
+#cl-ES,
+#cl-OAS {
     display: none;
 }
