@@ -98,7 +98,10 @@ img {
 	top: 0;
 	left: -255px;
 	z-index: 999;
-	background-color: #A3BCB6;
+	background-image: url(../img/backgrounds/14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	transition: all .3s;
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 	text-align: left;
