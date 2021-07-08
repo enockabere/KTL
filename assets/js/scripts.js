@@ -247,9 +247,10 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	$("#tops").click(function(){
-		$("form.was-validated").toggle(500);
+		$("form#myValid").toggle(500);
 	});
 });
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 });
+//services

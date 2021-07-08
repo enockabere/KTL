@@ -72,6 +72,15 @@ img {
 	text-shadow: none;
 }
 
+.quote {
+	margin-top: 300px;
+}
+
+.quote h4 {
+	background-color: white;
+	color: #000000;
+	font-weight: 700;
+}
 
 /***** Wrapper *****/
 
@@ -307,7 +316,7 @@ a[aria-expanded="true"] {
 	color: white;
 }
 
-.was-validated {
+#myValid {
 	margin: 10px;
 	display: none;
 }
@@ -543,7 +552,6 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
 .section-0 {
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/backgrounds/14.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
