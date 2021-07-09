@@ -583,7 +583,8 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
 	display: inline;
-	font-size: 13px;
+	font-size: 14px;
+	color: rgb(24, 23, 23);
 }
 
 ul.breadcrumb li+li:before {
@@ -793,6 +794,18 @@ ul.breadcrumb li a:hover {
     #news-t{
         margin-top: 15px;
     }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	#filters{
+		margin-right: 68%;
+		margin-bottom: 15px;
+	}
+	.itemu{
+		margin:17px;
+	}
+	#news-t{
+		margin-top: 15px;
+	}
 }
 .lay1{
 	position:absolute;
