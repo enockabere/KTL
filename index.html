@@ -23,6 +23,9 @@
 	<!--google fonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
 		rel="stylesheet">
@@ -46,10 +49,7 @@
 				<a href="#top-content"><i class="fas fa-home"></i> Home</a>
 			</li>
 			<li>
-				<a href="#about"><i class="fas fa-cog"></i>About</a>
-			</li>
-			<li>
-				<a href="#section-1"><i class="fas fa-user"></i>Services</a>
+				<a href="#about"><i class="fas fa-cog"></i>About us</a>
 			</li>
 			<li>
 				<a href="#expertize"><i class="fas fa-pencil-alt"></i>Expertise</a>
@@ -58,19 +58,22 @@
 				<a href="#"><i class="fas fa-pencil-alt"></i>Get Quote</a>
 			</li>
 			<li>
+				<a href="#"><i class="fas fa-pencil-alt"></i>Testimonials</a>
+			</li>
+			<li>
 				<a href="#footer"><i class="fas fa-envelope"></i> Contact us</a>
 			</li>
 			<li>
 				<a href="#otherSections" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"
 					role="button" aria-controls="otherSections">
-					<i class="fas fa-sync"></i>Find Out..
+					<i class="fas fa-sync"></i>More
 				</a>
 				<ul class="collapse list-unstyled" id="otherSections">
 					<li>
-						<a href="#partners">Partners</a>
+						<a href="#partners">Careers</a>
 					</li>
 					<li>
-						<a href="#section-4">Our Clients</a>
+						<a href="#section-4">CSR</a>
 					</li>
 				</ul>
 			</li>
@@ -118,9 +121,9 @@
 				</div>
 				<div class="row" id="rows">
 					<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-						<h1 id="headers" class="wow fadeIn">Honest, Reliable,</br> Going an Extra Mile <span
-								id="heads">for
-								You!</span></h1>
+						<h1 id="headers" class="wow fadeIn">Honest, Reliable, Going an Extra Mile </h1>
+						<!--<p><span id="heads">for
+								You!</span></p>-->
 						<!--<div class="animate">
 							<div id="chain" class="description wow fadeInLeft">
 								<p>
@@ -130,11 +133,12 @@
 							</div>
 						</div>-->
 						<div class="buttons wow fadeInUp">
-							<a class="btn btn-primary btn-lg btn-customized" href="#section-1" role="button">
-								<i class="fas fa-book-open"></i> Kobby Solutions
+							<a class="btn btn-primary btn-lg btn-customized" id="hey" data-toggle="tooltip" title="Click Here to Find the Right Solution For Your Business" href="services.html"
+								role="button">
+								<i class="fas fa-book-open"></i> Expertise
 							</a>
-							<a class="btn btn-primary btn-lg btn-customized-2" href="services.html" role="button">
-								<i class="fas fa-pencil-alt"></i> Our Services
+							<a class="btn btn-primary btn-lg btn-customized-2" id="hey" href="#" role="button">
+								<i class="fas fa-pencil-alt"></i>Get Quote
 							</a>
 						</div>
 					</div>
@@ -201,12 +205,12 @@
 						<ul class="breadcrumb">
 							<li><a href="#top-content">Home</a></li>
 							<li><a href="#about">About us</a></li>
-							<li>Services</li>
+							<li>Our Expertise</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!--<div class="row">
 				<div class="col-md-12">
 					<div class="services-text">
 						<p>
@@ -220,8 +224,8 @@
 						</p>
 					</div>
 				</div>
-			</div>
-			<div class="row">
+			</div>-->
+			<!--<div class="row">
 				<div class="col-md-6">
 					<div class="bs-example">
 						<div class="accordion" id="accordionExample">
@@ -343,11 +347,11 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<div class="row">
 				<div class="col-md-12">
 					<div class="myHead">
-						<h6>Our Core Services</h6>
+						<h6>Our Core Solutions</h6>
 						<h3>Customized Solutions for Every Business</h3>
 					</div>
 				</div>
@@ -368,7 +372,7 @@
 							</p>
 							<div class="mafooter">
 								<a href="">
-									<i id="arrow" class="fas fa-chevron-circle-right"></i>
+									<i id="arrow" class="fas fa-check-circle"></i>
 								</a>
 							</div>
 						</div>
@@ -389,7 +393,7 @@
 							</p>
 							<div class="mafooter">
 								<a href="">
-									<i id="arrow2" class="fas fa-chevron-circle-right"></i>
+									<i id="arrow2" class="fas fa-check-circle"></i>
 								</a>
 							</div>
 						</div>
@@ -410,7 +414,7 @@
 							</p>
 							<div class="mafooter">
 								<a href="">
-									<i id="arrow3" class="fas fa-chevron-circle-right"></i>
+									<i id="arrow3" class="fas fa-check-circle"></i>
 								</a>
 							</div>
 						</div>
@@ -430,11 +434,21 @@
 								experience of over 10 years in ICT disciplines.
 							</p>
 							<div class="mafooter">
-								<a href="">
-									<i id="arrow4" class="fas fa-chevron-circle-right"></i>
+								<a href="services.html">
+									<i id="arrow4" class="fas fa-check-circle"></i>
 								</a>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<a href="services.html">
+							<button id="newm" class="btn btn-primary btn-customized">
+								Find Out More
+								<i class="fas fa-chevron-circle-right"></i>
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -450,72 +464,96 @@
 						<ul class="breadcrumb">
 							<li><a href="#top-content">Home</a></li>
 							<li><a href="#about">About us</a></li>
-							<li><a href="#section-1">Services</a></li>
-							<li>Expertize</li>
+							<li><a href="#section-1">Expertise</a></li>
+							<li>Get Quote</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<div class="expert-section  wow fadeInLeft">
-						<p class="medium-paragraph">
-							Kobby Technologies (www.kobby.co.ke) was founded in 2015 as a provider of
-							consultancy services that help organizations get the maximum value from their IT investment.
-						</p>
-						<p>
-							We are a young, progressive and dynamic firm whose consultants have a wealth of experience
-							of over 10 years in ICT disciplines and who are driven by the desire to provide consultancy
-							advice that is responsive to our client needs. We build relationships by providing services
-							based on quality and integrity. We are particularly focused on ensuring that our work and
-							the development of our business, benefits the countries in which we work. In addition, we
-							have a strategy
-							and client service philosophy that ensures that our clients receive high quality service
-							delivery.
-						</p>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="gQuote">
+						<div class="card" id="gCard">
+							<div class="card-body" id="gBody">
+								<h5><i class="far fa-smile-wink"></i> We're more than Happy to serve you with a quote.
+								</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="serv-but">
+						<button id="news-t" class="btn btn-primary">
+							<span class="spinner-grow spinner-grow-sm"></span>
+							Request Quote <i class="fas fa-chevron-circle-right"></i>
+						</button>
 					</div>
 				</div>
 			</div>
-			<div class="row" id="hold">
-				<div class="col-md-4" id="bods">
-					<div class="bo">
-						<div class="h">
-							<h3><i class="fas fa-rocket"></i> Innovative Works</h3>
+		</div>
+		<div class="container" id="jumbs">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+						<div class="J-head">
+							<h2>Request For Quote</h2>
 						</div>
-						<div class="p">
-							<p>
-								Mobile based communications are becoming more and more essential
-								in todays connected world.People now can use mobile phones to perform banking
-								transactions and stay updated on latest business offerings.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3" id="bods">
-					<div class="bo">
-						<div class="h">
-							<h3><i class="fas fa-rocket"></i> Certified Company</h3>
-						</div>
-						<div class="p">
-							<p>
-								Mobile based communications are becoming more and more essential
-								in todays connected world.People now can use mobile phones to perform banking
-								transactions and stay updated on latest business offerings.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4" id="bods">
-					<div class="bo">
-						<div class="h">
-							<h3><i class="fas fa-rocket"></i> Very Experienced</h3>
-						</div>
-						<div class="p">
-							<p>
-								Mobile based communications are becoming more and more essential
-								in todays connected world.People now can use mobile phones to perform banking
-								transactions and stay updated on latest business offerings.
-							</p>
+						<div class="J-body">
+							<p>Please take a moment to fill the form</p>
+							<form>
+								<div class="form-row">
+									<div class="form-group col-sm-6 col-md-6 col-lg-6">
+										<label for="inputFname">First Name</label>
+										<input type="text" class="form-control" id="fname" placeholder="First Name">
+									</div>
+									<div class="form-group col-sm-6 col-md-6 col-lg-6">
+										<label for="lName">Last Name</label>
+										<input type="text" class="form-control" id="lname" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col-sm-6 col-md-6 col-lg-6">
+										<label for="tel">Phone Number</label>
+										<input type="text" class="form-control" id="tel" placeholder="(000) 000-0000">
+									</div>
+									<div class="form-group col-sm-6 col-md-6 col-lg-6">
+										<label for="mail">Email</label>
+										<input type="email" class="form-control" id="mail"
+											placeholder="Ex:myname@example.com">
+									</div>
+								</div>
+
+								<div class="form-row" id="mambo">
+									<div class="form-group col-sm-6 col-md-6 col-lg-6">
+										<label for="inputCity">Qoutation Type (Service):</label>
+										<select id="inputState" class="form-control">
+											<option selected>Choose...</option>
+											<option>Enterprise Applications</option>
+											<option>Data Centre Solutions</option>
+											<option>Enterprise Security:</option>
+											<option>Enterprise Security:</option>
+										</select>
+									</div>
+									<div class="form-group col-sm-6 col-md-6 col-lg-6">
+										<label for="inputState">Qoutation Type (Solution):</label>
+										<select id="inputState" class="form-control">
+											<option selected>Choose...</option>
+											<option>Enterprise Applications</option>
+											<option>Data Centre Solutions</option>
+											<option>Enterprise Security:</option>
+											<option>Enterprise Security:</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col-sm-12 col-md-12 col-lg-12">
+										<label for="exampleFormControlTextarea1">Optional Message</label>
+										<textarea class="form-control" id="exampleFormControlTextarea1"
+											rows="3"></textarea>
+									</div>
+								</div>
+								<button id="news-tc" type="submit" class="btn btn-primary">Submit Request</button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -530,8 +568,8 @@
 						<ul class="breadcrumb">
 							<li><a href="#top-content">Home</a></li>
 							<li><a href="#hero">About us</a></li>
-							<li><a href="#hero">Services</a></li>
 							<li><a href="#hero">Expertise</a></li>
+							<li><a href="#hero">Get Quote</a></li>
 							<li>Partners</li>
 						</ul>
 					</div>

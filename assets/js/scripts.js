@@ -220,4 +220,16 @@ $(document).ready(function () {
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 });
-//services
+//Quote
+$(document).ready(function () {
+    $("#news-t").click(function (event) {
+        event.preventDefault();
+        $("#jumbs").toggle();
+    });
+});
+$(document).ready(function () {
+    $("#news-tc").click(function (event) {
+        event.preventDefault();
+        $("#jumbs").hide(1000);
+    });
+});
