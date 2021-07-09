@@ -22,16 +22,50 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
-		rel="stylesheet">
-	<!-- Favicon and touch icons -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+    <!-- Favicon and touch icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
 
+        ! function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void(window.console && console.error && console.error(
+                    "Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page",
+                        "hide",
+                        "off", "on"
+                    ],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src =
+                            "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('ypngsh9xcf9z');
+    </script>
+    <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -259,7 +293,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hs">
-                        <h3>Partners</h3>
+                        <h3>Solutions</h3>
                     </div>
                 </div>
             </div>
@@ -557,7 +591,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-3 col-md-6">
-                            <div id="piechart_EA">My consultants</div>
+                        <div id="piechart_EA">My consultants</div>
                     </div>
                     <div class="col-md-6">
                         <div id="piecharts_EA"></div>
@@ -565,7 +599,7 @@
                 </div>
             </div>
         </section>
-        
+
     </section>
     <!--DCS-->
     <section id="ser-DCS">
@@ -1790,18 +1824,18 @@
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Our Expertize</h3>
                     <ol>
-                        <li><a href="#">Enterprise Applications – Oracle E-Business Suite, Oracle Fusion, Microsoft
-                                Dynamics 365 Business Central and KTL Front Accounting solutions</a></li>
-                        <li><a href="#">Data Centre Solutions: Virtualization; Backup as a Service, DR as a Service,
-                                Hardware</a></li>
-                        <li><a href="#">Enterprise Security: Information and Network Security – Oracle, Symantec</a>
-                        </li>
+                        <li>Kenya</li>
+                        <li>Uganda</li>
+                        <li>Tanzania</li>
+                        <li>Somalia</li>
+                        <li>Ethiopia</li>
+                        <li>United Arab Emirates</li>
+                        <li>DRC</li>
                     </ol>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Physical Address</h3>
                     <ol>
-                        <li>Kobby Technologies Ltd</li>
                         <li>The Mirage Tower 1, 5th Floor, Suite 4</li>
                         <li>Chiromo Road, Westlands</li>
                         <li>P.O Box 5824 – 00200</li>
@@ -1811,10 +1845,10 @@
                     </ol>
                 </div>
                 <div class="col item social">
-                    <a href="#" class="fa fa-facebook"></i></a>
-                    <a href="#" class="fa fa-twitter"></i></a>
-                    <a href="#" class="fa fa-linkedin"></i></a>
-                    <a href="#" class="fa fa-instagram"></i></a>
+                    <a href="#" class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="fab fa-twitter"></i></a>
+                    <a href="#" class="fab fa-linkedin"></i></a>
+                    <a href="#" class="fas fa-envelope"></i></a>
                     <div class="foot-log">
                         <img src="assets/img/logo/1.png" alt="">
                     </div>
@@ -1837,9 +1871,6 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
         integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
-        integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>

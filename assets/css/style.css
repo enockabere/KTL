@@ -294,14 +294,14 @@ a[aria-expanded="true"] {
 .cols a {
 	margin: 2px;
 	padding-left: 30px;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .cols a:hover {
 	margin: 2px;
 	padding-left: 30px;
 	font-size: 18px;
-	color: white;
+	color: black;
 }
 
 #myValid {

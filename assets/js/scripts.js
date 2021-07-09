@@ -209,7 +209,7 @@ function topFunction() {
 }
 $(document).ready(function () {
 	$("#callBtn").click(function () {
-		alert("Thank you for your interest, we will contact you soon.")
+		alert("Thank you for taking time to request a call with us. A member of our team shall be sent to you shortly.")
 	});
 });
 $(document).ready(function () {
