@@ -283,3 +283,178 @@ $(document).ready(function () {
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 });
+/*-----EA start---*/
+//expert team
+ // Load google charts
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChart);
+ 
+ // Draw the chart and set the chart values
+ function drawChart() {
+   var data = google.visualization.arrayToDataTable([
+   ['Microsoft Navision', 'Number of Consultants'],
+   ['IoT Experts', 8],
+   ['Oracle DBAs', 2],
+   ['Hyperion Experts', 4],
+   ['Azure Cloud Service', 2],
+   ['System Engineers', 8]
+ ]);
+ 
+   // Optional; add a title and set the width and height of the chart
+   var options = {'title':'Oracle Expertise', 'width':700, 'height':400};
+ 
+   // Display the chart inside the <div> element with id="piechart"
+   var chart = new google.visualization.PieChart(document.getElementById('piechart_EA'));
+   chart.draw(data, options);
+ }
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawCharts);
+  // Draw the chart and set the chart values
+  function drawCharts() {
+    var datas = google.visualization.arrayToDataTable([
+    ['Microsoft Navision', 'Number of Consultants'],
+    ['IoT Experts', 8],
+    ['Oracle DBAs', 2],
+    ['Hyperion Experts', 4],
+    ['Azure Cloud Service', 2],
+    ['System Engineers', 8]
+  ]);
+  
+    // Optional; add a title and set the width and height of the chart
+    var options = {'title':'Microsft Expertise', 'width':700, 'height':400};
+  
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.PieChart(document.getElementById('piecharts_EA'));
+    chart.draw(datas, options);
+  }
+   /*-----EA end---*/
+
+ /*-----DCS start---*/
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChartD);
+ 
+ // Draw the chart and set the chart values
+ function drawChartD() {
+   var dataD = google.visualization.arrayToDataTable([
+   ['Microsoft Navision', 'Number of Consultants'],
+   ['IoT Experts', 8],
+   ['Oracle DBAs', 2],
+   ['Hyperion Experts', 4],
+   ['Azure Cloud Service', 2],
+   ['System Engineers', 8]
+ ]);
+ 
+   // Optional; add a title and set the width and height of the chart
+   var options = {'title':'Oracle Expertise', 'width':700, 'height':400};
+ 
+   // Display the chart inside the <div> element with id="piechart"
+   var chart = new google.visualization.PieChart(document.getElementById('piechart_DCS'));
+   chart.draw(dataD, options);
+ }
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChartsDC);
+  // Draw the chart and set the chart values
+  function drawChartsDC() {
+    var dataDCS = google.visualization.arrayToDataTable([
+    ['Microsoft Navision', 'Number of Consultants'],
+    ['IoT Experts', 8],
+    ['Oracle DBAs', 2],
+    ['Hyperion Experts', 4],
+    ['Azure Cloud Service', 2],
+    ['System Engineers', 8]
+  ]);
+  
+    // Optional; add a title and set the width and height of the chart
+    var options = {'title':'Microsft Expertise', 'width':700, 'height':400};
+  
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.PieChart(document.getElementById('piecharts_DCS'));
+    chart.draw(dataDCS, options);
+  }
+  /*-----DCS END---*/
+   /*-----ES start---*/
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChartE);
+ 
+ // Draw the chart and set the chart values
+ function drawChartE() {
+   var data = google.visualization.arrayToDataTable([
+   ['Microsoft Navision', 'Number of Consultants'],
+   ['IoT Experts', 8],
+   ['Oracle DBAs', 2],
+   ['Hyperion Experts', 4],
+   ['Azure Cloud Service', 2],
+   ['System Engineers', 8]
+ ]);
+ 
+   // Optional; add a title and set the width and height of the chart
+   var options = {'title':'Oracle Expertise', 'width':700, 'height':400};
+ 
+   // Display the chart inside the <div> element with id="piechart"
+   var chart = new google.visualization.PieChart(document.getElementById('piechart_ES'));
+   chart.draw(data, options);
+ }
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChartsES);
+  // Draw the chart and set the chart values
+  function drawChartsES() {
+    var dataDCS = google.visualization.arrayToDataTable([
+    ['Microsoft Navision', 'Number of Consultants'],
+    ['IoT Experts', 8],
+    ['Oracle DBAs', 2],
+    ['Hyperion Experts', 4],
+    ['Azure Cloud Service', 2],
+    ['System Engineers', 8]
+  ]);
+  
+    // Optional; add a title and set the width and height of the chart
+    var options = {'title':'Microsft Expertise', 'width':700, 'height':400};
+  
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.PieChart(document.getElementById('piecharts_ES'));
+    chart.draw(dataDCS, options);
+  }
+  /*-----ES END---*/
+   /*-----OAS start---*/
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChartO);
+ 
+ // Draw the chart and set the chart values
+ function drawChartO() {
+   var dataD = google.visualization.arrayToDataTable([
+   ['Microsoft Navision', 'Number of Consultants'],
+   ['IoT Experts', 8],
+   ['Oracle DBAs', 2],
+   ['Hyperion Experts', 4],
+   ['Azure Cloud Service', 2],
+   ['System Engineers', 8]
+ ]);
+ 
+   // Optional; add a title and set the width and height of the chart
+   var options = {'title':'Oracle Expertise', 'width':700, 'height':400};
+ 
+   // Display the chart inside the <div> element with id="piechart"
+   var chart = new google.visualization.PieChart(document.getElementById('piechart_OAS'));
+   chart.draw(dataD, options);
+ }
+ google.charts.load('current', {'packages':['corechart']});
+ google.charts.setOnLoadCallback(drawChartsOA);
+  // Draw the chart and set the chart values
+  function drawChartsOA() {
+    var dataDCS = google.visualization.arrayToDataTable([
+    ['Microsoft Navision', 'Number of Consultants'],
+    ['IoT Experts', 8],
+    ['Oracle DBAs', 2],
+    ['Hyperion Experts', 4],
+    ['Azure Cloud Service', 2],
+    ['System Engineers', 8]
+  ]);
+  
+    // Optional; add a title and set the width and height of the chart
+    var options = {'title':'Microsft Expertise', 'width':700, 'height':400};
+  
+    // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.PieChart(document.getElementById('piecharts_OAS'));
+    chart.draw(dataDCS, options);
+  }
+  /*-----DCS END---*/

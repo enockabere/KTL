@@ -878,6 +878,9 @@ ul.breadcrumb li a:hover {
         margin-bottom: 15px;
 		margin-top: 20px;
     }
+	#new{
+		margin-right: 76%;
+	}
 	#gBody h5{
 		font-size: 14px;
 	}
