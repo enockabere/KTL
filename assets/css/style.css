@@ -898,6 +898,17 @@ ul.breadcrumb li a:hover {
 		font-size: 14px;
 	}
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	#new{
+		margin-right: 68%;
+	}
+	.card{
+		margin: 20px;
+	}
+	#jumbs{
+		margin-top:15px;
+	}
+}
 /***** Section 3 *****/
 
 @media (max-width: 768px) {
