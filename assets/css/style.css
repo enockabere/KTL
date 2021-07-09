@@ -885,6 +885,11 @@ ul.breadcrumb li a:hover {
 		font-size: 14px;
 	}
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	#new{
+		margin-right: 16%;
+	}
+}
 /***** Section 3 *****/
 
 @media (max-width: 768px) {
