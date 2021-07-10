@@ -1092,3 +1092,86 @@ ul.breadcrumb li a:hover {
 	font-size: 13px;
 	margin-bottom: 0;
 }
+/*testimonials*/
+
+.testimonial{
+    text-align: inherit;
+}
+#dems{
+	background-color: #ebf6f5;
+	padding: 50px;
+}
+.demo
+{
+	padding: 80px 0;
+	background-color: #f43a09
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.testimonial .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.testimonial .testimonial-title{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 400;
+    color: #0c4767;
+    margin: 0 0 70px 0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.testimonial .testimonial-title small{
+    font-size: 15px;
+    font-weight: 600;
+    color: #787878;
+}
+
+.testimonial .description{
+    font-size: 14px;
+    color: #333232;
+    line-height: 27px;
+    position: relative;
+    margin: 0;
+}
+
+.myHead h2{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 400;
+	color: #01447e;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: fontawesome;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 46%;
+    font-size: 20px;
+    color: red;
+    line-height:33px;
+    border: 2px solid #000000;
+}
+
+.owl-theme .owl-controls .owl-page span{
+    background: #fff;
+    border: 2px solid black;
+    opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+    border: 2px solid red;
+}@charset "utf-8";
+/* CSS Document */
