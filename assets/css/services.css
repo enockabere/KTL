@@ -1045,3 +1045,42 @@ ul.breadcrumb li a:hover {
 .apply-body{
 	text-align: left;
 }
+#jobs{
+	padding: 15px;
+	margin-top: 15px;
+}
+.card-head h3{
+	text-align: left;
+	color: #0049B7;
+	font-weight: 500;
+}
+#job-t{
+	background-color: #D0D3D4;
+	padding: 20px;
+}
+.job-head h4{
+	text-align: left;
+	color: #000000;
+	font-weight: 400;
+}
+.job-p p{
+	text-align: justify;
+	color: #101010;
+}
+.job-list li{
+	text-align: left;
+	color: #101010;
+}
+#n {
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid red;
+    font-size: 13px;
+    padding: 15px;
+
+}
+
+#n:hover {
+    background-color: black;
+    border: 3px solid red;
+}
