@@ -1,3 +1,34 @@
+$(document).ready(function(){
+    $("#card1").click(function(event){
+        event.preventDefault();
+        $("#bj2").hide();
+        $("#j2").hide();
+        $("#bj3").hide();
+        $("#j3").hide();
+        $("#bj1").show();
+        $("#j1").show();   
+    });
+    $("#card2").click(function(event){
+        event.preventDefault();
+        $("#bj1").hide();
+        $("#j1").hide(); 
+        $("#bj3").hide();
+        $("#j3").hide();
+        $("#bj2").show();
+        $("#j2").show();
+    });
+    $("#card3").click(function(event){
+        event.preventDefault();
+        $("#bj1").hide();
+        $("#j1").hide(); 
+        $("#bj2").hide();
+        $("#j2").hide();
+        $("#bj3").show();
+        $("#j3").show();
+    });
+});
+
+//main
 $(document).ready(function () {
     $("#news-t").click(function (event) {
         event.preventDefault();
