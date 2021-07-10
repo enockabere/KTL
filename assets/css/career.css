@@ -266,7 +266,6 @@ a[aria-expanded="true"] {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 500;
 	font-size: 43px;
-	padding-bottom: 30px;
 	text-align: center;
 	text-align: center;
 
@@ -523,7 +522,7 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
 	background:
 		linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
-		url(../img/backgrounds/21.jpg);
+		url(../img/backgrounds/20.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
@@ -875,4 +874,17 @@ ul.breadcrumb li a:hover {
 	opacity: 0.3;
 	font-size: 13px;
 	margin-bottom: 0;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .apply-card{
+        margin: 8px;
+		width: 100%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.apply-card{
+		margin:12px;
+		width: 100%;
+	}
 }
