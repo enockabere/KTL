@@ -630,6 +630,9 @@ ul.breadcrumb li a:hover {
 	background-color: #f6f5f3;
 	padding-bottom: 40px;
 }
+.card-footer{
+	background-color: #f6f5f3;
+}
 #jobs{
 	background-color: #f6f5f3;
 	border-color: #f6f5f3;
@@ -641,7 +644,31 @@ ul.breadcrumb li a:hover {
 	border-radius: 8px;
 	box-shadow: 5px 3px 2px rgb(189, 180, 180);
 }
-
+#csr{
+	margin-top: 10px;
+	border-radius: 5%;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	background-color: rgb(4, 44, 13);
+}
+#csr-im img{
+	border-radius: 5%;
+	
+}
+#csr-im{
+	max-height: 360px;
+	border-radius: 5%;
+}
+#csr-b{
+	background-color: rgb(4, 44, 13);
+	float: left;
+	border-radius: 5%;
+}
+#csr-b h3{
+	color: white;
+}
+#csr-b p{
+	color: white;
+}
 .apply-card:hover {
 	box-shadow: none;
 	border: 1px solid green;
@@ -740,7 +767,7 @@ ul.breadcrumb li a:hover {
 	font-size: 22px;
 }
 #info{
-	background-color: #d1bfa7;
+	background-color: #e9e7e5;
 	padding-bottom: 40px;
 }
 /* footer style*/
