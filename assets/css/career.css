@@ -99,9 +99,9 @@ img {
 	left: -255px;
 	z-index: 999;
 	background-image: url(../img/backgrounds/14.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	transition: all .3s;
 	box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 	text-align: left;
@@ -255,25 +255,28 @@ a[aria-expanded="true"] {
 	z-index: 997;
 	box-shadow: 3px 3px 3px red;
 }
-#hey{
+
+#hey {
 	font-weight: 400;
 	font-size: 20px;
 }
+
 #headers {
-	color: black;
+	color: white;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 500;
 	font-size: 43px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-	text-align:center;
+	padding-bottom: 30px;
+	text-align: center;
+	text-align: center;
 
 }
-.hs h3{
-    color: #ac5f5f;
-    font-family: 'Oswald', sans-serif;
-    font-size: 17px;
-    text-align: left;
+
+.hs h3 {
+	color: #ac5f5f;
+	font-family: 'Oswald', sans-serif;
+	font-size: 17px;
+	text-align: left;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -281,6 +284,7 @@ a[aria-expanded="true"] {
 		font-size: 28px;
 		font-weight: 800;
 	}
+
 	#chain {
 		display: none;
 	}
@@ -288,8 +292,9 @@ a[aria-expanded="true"] {
 
 #heads {
 	color: red;
-	font-size: 35px;
-	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: 500;
+	font-family: 'Source Serif Pro', serif;
 }
 
 .open-menu.btn-customized,
@@ -514,7 +519,15 @@ a.btn-customized-4.btn-customized-light.btn.btn-primary:not(:disabled):not(.disa
 
 .top-content {
 	width: 100%;
-    height: 60vh;
+	height: 60vh;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)),
+		url(../img/backgrounds/21.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
 }
 
 .top-content h1 {
@@ -597,100 +610,138 @@ ul.breadcrumb li a:hover {
 	color: #01447e;
 }
 
-#j2,#j3,#bj2,#bj3{
-    display: none;
+#j2,
+#j3,
+#bj2,
+#bj3 {
+	display: none;
 }
-.apply{
+
+.apply {
 	padding-bottom: 40px;
 }
+#service-1{
+	background-color: #f6f5f3;
+}
+.apply{
+	background-color: #f6f5f3;
+}
+#applie{
+	background-color: #f6f5f3;
+	padding-bottom: 40px;
+}
+#jobs{
+	background-color: #f6f5f3;
+	border-color: #f6f5f3;
+}
 /*career*/
-.apply-card{
-	background-color: #ebf6f5 ;
+.apply-card {
+	background-color: #ebf6f5;
 	padding: 15px;
 	border-radius: 8px;
 	box-shadow: 5px 3px 2px rgb(189, 180, 180);
 }
-.apply-card:hover{
+
+.apply-card:hover {
 	box-shadow: none;
-	border: 1px solid green ;
+	border: 1px solid green;
 }
-.apply-head h3{
-	color:black;
+
+.apply-head h3 {
+	color: black;
 	font-size: 15px;
 	font-weight: 400;
 	text-align: left;
 }
-.apply-card:hover .apply-head h3{
+
+.apply-card:hover .apply-head h3 {
 	color: green;
 	text-decoration: underline;
 }
+
 .nu {
-	background-color: #D0D3D4 ;
+	background-color: #D0D3D4;
 	padding: 5px;
 	color: #0049B7;
 	font-weight: 400;
 	border-radius: 20%;
 }
-.apply-body{
+
+.apply-body {
 	text-align: left;
 }
-#jobs{
+
+#jobs {
 	padding: 15px;
 	margin-top: 15px;
 }
-.card-head h3{
+
+.card-head h3 {
 	text-align: left;
 	color: #0049B7;
 	font-weight: 500;
 }
-#job-t{
-	background-color: #D0D3D4;
+
+#job-t {
 	padding: 20px;
 }
-.job-head h4{
+
+.job-head h4 {
 	text-align: left;
 	color: #000000;
 	font-weight: 400;
 }
-.job-p p{
+
+.job-p p {
 	text-align: justify;
 	color: #101010;
+	font-size: 13px;
 }
-.job-list li{
+
+.job-list li {
 	text-align: left;
 	color: #101010;
-    font-size: 15px;
+	font-size: 13px;
 }
+
 #n {
-    background-color: red;
-    border-radius: 4px;
-    border: 1px solid red;
-    font-size: 13px;
-    padding: 15px;
+	background-color: red;
+	border-radius: 4px;
+	border: 1px solid red;
+	font-size: 13px;
+	padding: 15px;
 
 }
 
 #n:hover {
-    background-color: black;
-    border: 3px solid red;
+	background-color: black;
+	border: 3px solid red;
 }
-#job-list li{
+
+#job-list li {
 	text-align: left;
-	color: #2377af;
+	color:  #79879c;
 	font-size: 15px;
+	font-weight: 700;
 }
-.lis{
+
+.lis {
 	color: #000000;
 	font-size: 15px;
 	font-weight: 300;
 }
+
 .sect-head h3 {
-    color: #01447e;
-    text-align: left;
-    font-family: 'Noto Sans SC', sans-serif;
-    padding-top: 20px;
-    font-weight: 300;
-    font-size: 17px;
+	color: #01447e;
+	text-align: left;
+	font-family: 'Noto Sans SC', sans-serif;
+	padding-top: 20px;
+	font-weight: 500;
+	font-size: 22px;
+}
+#info{
+	background-color: #d1bfa7;
+	padding-bottom: 40px;
 }
 /* footer style*/
 
@@ -798,4 +849,3 @@ ul.breadcrumb li a:hover {
 	font-size: 13px;
 	margin-bottom: 0;
 }
-
