@@ -1175,3 +1175,22 @@ ul.breadcrumb li a:hover {
     border: 2px solid red;
 }@charset "utf-8";
 /* CSS Document */
+.alert{
+	background-color:  #e5eaf5;
+	padding: 10px;
+	display: none;
+}
+.alert h4{
+	color: #000000;
+	font-size: 17px;
+	font-weight: 500;
+}
+.alert:hover{
+	background-color:  #a0d2eb;
+	padding: 10px;
+}
+.alert .close{
+	color: red;
+	opacity: 1;
+	margin-right: 10px;
+}

@@ -12,7 +12,16 @@ function scroll_to(clicked_link, nav_height) {
 	}
 }
 
-
+$(document).ready(function(){
+	$(".alert").show();
+	$(".alert").animate({
+		width: "100%",
+		opacity: 1,
+		left: "50px",
+		speed:"slow"
+	  }, 4000);
+	$('.alert').delay(5000).fadeOut(500);
+})
 jQuery(document).ready(function () {
 
 	/*
