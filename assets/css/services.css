@@ -1011,3 +1011,37 @@ ul.breadcrumb li a:hover {
 	text-align:unset;
 	font-size: 14px;
 }
+.apply{
+	padding-bottom: 40px;
+}
+/*career*/
+.apply-card{
+	background-color: #ebf6f5 ;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 5px 3px 2px rgb(189, 180, 180);
+}
+.apply-card:hover{
+	box-shadow: none;
+	border: 1px solid green ;
+}
+.apply-head h3{
+	color:black;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+}
+.apply-card:hover .apply-head h3{
+	color: green;
+	text-decoration: underline;
+}
+.nu {
+	background-color: #D0D3D4 ;
+	padding: 5px;
+	color: #0049B7;
+	font-weight: 400;
+	border-radius: 20%;
+}
+.apply-body{
+	text-align: left;
+}
