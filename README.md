@@ -30,7 +30,7 @@ To make advancements/modifications, follow these steps:
 - Push to the branch (`git push origin x-feature`)
 - Create a Pull Request 
 ## Live link
-Visit the application on https://enockabere.github.io/Git-Search/.
+Visit the application on https://enockabere.github.io/KTL/
 ## Technologies used
 - HTML
 - CSS
