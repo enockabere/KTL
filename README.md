@@ -1,3 +1,4 @@
+[![codebeat badge](https://codebeat.co/badges/7bbb17b5-2cde-4108-aac0-eefcd439cf9f)](https://codebeat.co/projects/github-com-enockabere-ktl-master)
 ## Project name
     - Hypertext Assassin
 ​
